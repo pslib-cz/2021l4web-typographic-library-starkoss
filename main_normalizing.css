@@ -1,0 +1,61 @@
+/*Basic HTML*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+html{
+    line-height: 1.15;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 1rem;
+    margin: 0;
+    letter-spacing: normal;
+    font-stretch: normal;
+}
+
+h2{
+    font-size: 1.75em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1.3em;
+}
+
+h5{
+    font-size: 1.2em;
+}
+
+h6{
+    font-size: 1.1em;
+}
+
+p{
+    display: block;
+    padding: 2rem;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-stretch: normal;
+}
+
+/*Formating*/
+
+abbr{
+    padding: 0 0.3rem ;
+    border-bottom: none; 
+    text-decoration: underline; 
+    text-decoration: underline dotted; 
+}
