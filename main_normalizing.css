@@ -59,3 +59,27 @@ abbr{
     text-decoration: underline; 
     text-decoration: underline dotted; 
 }
+
+address{
+    display: block;
+    padding: 2rem;
+    font-size: 1em;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+b{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+}
+
+code{
+    font-family: 'Roboto Slab', monospace;
+}
+
+pre{
+    display: block;
+    margin: 0;
+    padding: 1rem 2rem;
+    
+}
