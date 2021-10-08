@@ -83,3 +83,41 @@ pre{
     padding: 1rem 2rem;
     
 }
+
+div{
+    display: block;
+    padding: 2rem;
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Roboto Slab', serif;
+}
+
+blockquote{
+    margin: 0;
+}
+
+mark{
+    background-color: initial;
+    color: red;
+}
+figure{
+    display: block;
+    margin: 0;
+    padding: 2em;
+    height: 50vh;
+    width: 50vw;
+}
+
+img{
+    height: 100%;
+    
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: grey solid 2px;
+    border-radius: 10%;
+    height: 3rem;
+    width: 5rem;
+}
