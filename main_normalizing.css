@@ -44,7 +44,7 @@ h6{
 
 p{
     display: block;
-    padding: 2rem;
+    padding: 2rem 1rem;
     margin: 0;
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
@@ -54,10 +54,10 @@ p{
 
 /*Formating*/
 a{
-    display: inline-block;
     text-decoration: none;
     color: black;
     font-weight: 700;
+    font-size: 1rem;
 }
 
 a:hover{
@@ -107,7 +107,7 @@ pre > code{
 
 div{
     display: block;
-    padding: 2rem;
+    padding: 2rem 1rem;
     margin: 0;
     font-size: 1em;
     font-family: 'Roboto Slab', serif;
@@ -115,9 +115,9 @@ div{
 
 blockquote{
     border-left: 0.3rem solid red;
-    margin-left: 0;
+    margin-left: 1rem;
     margin-right: 0;
-    padding: 1rem 1.5rem;
+    padding: 0;
     font-style: italic;
 }
 
@@ -127,7 +127,7 @@ blockquote{
     border-radius: 0.5rem;
     color: black;
     cursor: pointer;
-    display: inline-block;
+    display: block;
     font-size: 1rem;
     height: 3rem;
     letter-spacing: .1rem;
@@ -147,4 +147,14 @@ blockquote{
     background-color: transparent;
     border-color: transparent;
     color: black;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 865px){
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
 }
